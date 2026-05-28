@@ -1,0 +1,144 @@
+/* 全体設定 */
+body {
+    margin: 0;
+    background-color:#faf8f5;
+    color:#333;
+    font-family: "Yu Gothic" , sans-serif;
+    line-height: 1.8;
+}
+
+/* header */
+header {
+    background-color:#3f7748;
+    color:white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d8ffd8;
+}
+
+/* main */
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* section */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* 見出し */
+h2 {
+    display: inline-block;
+    border-bottom: 3px solid #9bc59d;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    color: #4b6b4d;
+}
+
+/* About画像 */
+section img{
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* menu */
+.menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: white;
+    width: 220px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    list-style: none;
+    padding: 0;
+}
+
+/* form */
+form {
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea{
+    height: 120px;
+}
+
+button {
+    background-color: #3f7748;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+button:hover {
+    background-color: #2f5d37;
+}
+
+/* footer */
+footer {
+    background-color: #2f5d37;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
